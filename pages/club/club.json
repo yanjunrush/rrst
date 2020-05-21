@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SearchBar": "../pages/search/search"
+  },
+  "navigationBarTitleText": "社团"
+}

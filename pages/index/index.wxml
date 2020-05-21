@@ -1,0 +1,19 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <swiper-item><image src="../../images/1 (1).jpg"></image></swiper-item>
+  <swiper-item><image src="../../images/2.jpg"></image></swiper-item>
+</swiper>
+
+<view class='icon'>
+    <navigator>
+      <image src='../../images/index.png' mode="aspectFit"></image>
+      <text>社团</text>
+    </navigator>
+    <navigator>
+      <image src='../../images/index.png' mode="aspectFit"></image>
+      <text>学校</text>
+    </navigator>
+    <navigator>
+      <image src='../../images/index.png' mode="aspectFit"></image>
+      <text>通知</text>
+    </navigator>
+  </view>

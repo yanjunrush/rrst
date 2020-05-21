@@ -1,0 +1,22 @@
+<!-- 搜索框 -->
+<view >
+    <SearchBar id="SearchBar" addflag="{{addflag}}" addimg="{{addimg}}" bind:addhandle="addhandle" searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList" bind:cancelsearch="cancelsearch" bind:activity_clear="activity_clear">
+    </SearchBar>
+</view>
+
+<view class="title">我的社团</view>
+<button type="primary">创建社团</button>
+
+<navigator>
+  <view class="box">
+    <image src="../../images/noire.jpg" class="image"></image>
+  <view class="name"> 电子科技大学滑板社</view>
+  </view>
+</navigator>
+
+<navigator>
+  <view class="box">
+    <image src="../../images/noire.jpg" class="image"></image>
+  <view class="name"> 电子科技大学动漫社</view>
+  </view>
+</navigator>
