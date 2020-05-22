@@ -1,0 +1,1 @@
+const cloud = require('wx-serer-sdk')
