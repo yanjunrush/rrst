@@ -1,4 +1,4 @@
-
+import request from '../../utils/request';
 Page({
 
   /**
@@ -15,7 +15,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    request('test').then(response => {
+      console.log(response)
+    }).catch(err => {
+      console.error(err)
+    })
+    console.log("asd")
   },
 
   /**
