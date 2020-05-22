@@ -1,5 +1,8 @@
-<!--pages/school/school.wxml-->
-<text>pages/school/school.wxml</text>
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">学校</view>
+</cu-custom>
+
 <!-- 搜索框 -->
 <view >
     <SearchBar id="SearchBar" addflag="{{addflag}}" addimg="{{addimg}}" bind:addhandle="addhandle" searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList" bind:cancelsearch="cancelsearch" bind:activity_clear="activity_clear">

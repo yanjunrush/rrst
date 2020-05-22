@@ -1,18 +1,23 @@
+<view class="cu-bar bg-black search">
+  <view class="cu-avatar round"><open-data type="userAvatarUrl"></open-data></view>
+  <view class="content">人人社团</view>
+</view>
+
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-  <swiper-item><image src="../../images/1 (1).jpg"></image></swiper-item>
-  <swiper-item><image src="../../images/2.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="../../images/1 (1).jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="../../images/2.jpg"></image></swiper-item>
 </swiper>
 
 <view class='icon'>
-    <navigator>
+    <navigator url="/pages/club/club">
       <image src='../../images/index.png' mode="aspectFit"></image>
       <text>社团</text>
     </navigator>
-    <navigator>
+    <navigator url="/pages/school/school">
       <image src='../../images/index.png' mode="aspectFit"></image>
       <text>学校</text>
     </navigator>
-    <navigator>
+    <navigator url="/pages/notice/notice">
       <image src='../../images/index.png' mode="aspectFit"></image>
       <text>通知</text>
     </navigator>

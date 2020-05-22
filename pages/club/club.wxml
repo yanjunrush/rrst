@@ -1,22 +1,53 @@
-<!-- 搜索框 -->
+
+<!--导航栏-->
+<view class="cu-bar bg-black search">
+  <view class="cu-avatar round"><open-data type="userAvatarUrl"></open-data></view>
+  <view class="content">我的社团</view>
+</view>
+<!--搜索-->
 <view >
     <SearchBar id="SearchBar" addflag="{{addflag}}" addimg="{{addimg}}" bind:addhandle="addhandle" searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList" bind:cancelsearch="cancelsearch" bind:activity_clear="activity_clear">
     </SearchBar>
 </view>
 
-<view class="title">我的社团</view>
-<button type="primary">创建社团</button>
-
 <navigator>
-  <view class="box">
-    <image src="../../images/noire.jpg" class="image"></image>
-  <view class="name"> 电子科技大学滑板社</view>
+  <view class="cu-card article">
+   <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">电子科技大学滑板社</view>
+      </view>
+      <view class="content">
+        <image src="../../images/noire.jpg" mode="aspectFill"></image>
+        <view class="desc">
+          <view class="text-content">
+            xxxxxxxxxxxxxxxxxxxxxxxxx
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </navigator>
 
 <navigator>
-  <view class="box">
-    <image src="../../images/noire.jpg" class="image"></image>
-  <view class="name"> 电子科技大学动漫社</view>
+  <view class="cu-card article">
+   <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">电子科技大学动漫</view>
+      </view>
+      <view class="content">
+        <image src="../../images/noire.jpg" mode="aspectFill"></image>
+        <view class="desc">
+          <view class="text-content">
+            xxxxxxxxxxxxxxxxxxxxxxxxx
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </navigator>
+
+<view class="cu-bar btn-group">
+  <button class="cu-bar btn-group" class="cu-bar btn-group">
+    创建社团
+  </button>
+</view>

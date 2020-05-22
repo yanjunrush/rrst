@@ -1,20 +1,77 @@
-<button type="primary">发布通知</button>
+<view class="cu-bar bg-black search">
+  <view class="cu-avatar round"><open-data type="userAvatarUrl"></open-data></view>
+  <view class="content">通知</view>
+</view>
+
 <navigator>
-  <view class="box">
-    <view class="name">电子科技大学滑板社</view>
-    <br/>
-    <view class="content" style="overflow-wrap: break-word">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</view>
-    <br/>
-    <view class="time">2020.5.21</view>
+  <view class="cu-bar bg-white">
+    <view class="action border-title">
+      <text class="text-xl text-bold">发布通知</text>
+      <text class="bg-grey" style="width:2rem"></text>
+    </view>
   </view>
 </navigator>
 
 <navigator>
-  <view class="box">
-    <view class="name">电子科技大学动漫社</view>
-    <br/>
-    <view class="content" style="overflow-wrap: break-word">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</view>
-    <br/>
-    <view class="time">2020.5.21</view>
+  <view class="cu-card case">
+    <view class="cu-item shadow">
+      <view class="image">
+        <image mode="widthFix" src="../../images/2.jpg"></image>
+        <view class="cu-bar bg-shadeBottom">
+          <text class="text-cut">
+            xxxxxxxxxxxxxxxxxxxx
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url(../../images/noire.jpg);"> </view>
+        <view class="content flex-sub">
+          <view class="text-grey">电子科技大学滑板社</view>
+          <view class="text-gray text-sm flex justify-between">
+            2020.5.22
+            <view class="text-gray text-sm">
+              <text class="cuIcon-attentionfill margin-lr-xs"></text>
+              12
+              <text class="cuIcon-appreciatefill margin-lr-xs"></text>
+              5
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator>
+  <view class="cu-card case">
+    <view class="cu-item shadow">
+      <view class="image">
+        <image mode="widthFix" src="../../images/1 (1).jpg"></image>
+        <view class="cu-bar bg-shadeBottom">
+          <text class="text-cut">
+            xxxxxxxxxxxxxxxxxxxx
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url(../../images/noire.jpg);"> </view>
+        <view class="content flex-sub">
+          <view class="text-grey">电子科技大学滑板社</view>
+          <view class="text-gray text-sm flex justify-between">
+            2020.5.22
+            <view class="text-gray text-sm">
+              <text class="cuIcon-attentionfill margin-lr-xs"></text>
+              12
+              <text class="cuIcon-appreciatefill margin-lr-xs"></text>
+              5
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </navigator>
